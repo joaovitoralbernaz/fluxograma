@@ -4,6 +4,10 @@ int main(){
     int idade;
     printf("Digite sua idade: ");
     scanf("%d" , &idade);
+    while( idade < 0){
+        printf("Digite sua idade novamente: ");
+        scanf("%d" , &idade);
+    }
     if( idade >= 18){
         printf("Entre na festa");
     }else if ( idade < 16){
