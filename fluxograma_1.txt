@@ -12,8 +12,6 @@ int main(){
         printf("Espie por 5 min \n");
     }
     printf("Vá para casa");
-    re        printf("Chore \n");
-
-
-turn 0;
+    
+    return 0;
 }
